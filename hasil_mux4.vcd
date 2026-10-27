@@ -1,0 +1,59 @@
+$date
+  Tue Oct 27 12:19:12 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module mux_4to1_tb $end
+$var reg 1 ! d0_tb $end
+$var reg 1 " d1_tb $end
+$var reg 1 # d2_tb $end
+$var reg 1 $ d3_tb $end
+$var reg 2 % sel_tb[1:0] $end
+$var reg 1 & y_tb $end
+$scope module uut $end
+$var reg 1 ' d0 $end
+$var reg 1 ( d1 $end
+$var reg 1 ) d2 $end
+$var reg 1 * d3 $end
+$var reg 2 + sel[1:0] $end
+$var reg 1 , y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+1!
+0"
+1#
+0$
+b00 %
+1&
+1'
+0(
+1)
+0*
+b00 +
+1,
+#10000000
+b01 %
+0&
+b01 +
+0,
+#20000000
+b10 %
+1&
+b10 +
+1,
+#30000000
+b11 %
+0&
+b11 +
+0,
+#40000000
